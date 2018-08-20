@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47b0c300-e000-45f7-9600-a80c0c2a9a69" name="Default" comment="" />
+    <list default="true" id="47b0c300-e000-45f7-9600-a80c0c2a9a69" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/ckptSkill/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/ckptSkill/checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-10.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-10.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-10.index" beforeDir="false" afterPath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-10.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-10.meta" beforeDir="false" afterPath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-10.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-6.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-6.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-6.index" beforeDir="false" afterPath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-6.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-6.meta" beforeDir="false" afterPath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-6.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-8.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-8.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-8.index" beforeDir="false" afterPath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-8.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-8.meta" beforeDir="false" afterPath="$PROJECT_DIR$/ckptSkill/dkt.ckpt-8.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckptSkill/dkt_auc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ckptSkill/dkt_auc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dataProcess.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dataProcess.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataProcess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="101" column="54" selection-start-line="101" selection-start-column="54" selection-end-line="101" selection-end-column="54" />
+            <state relative-caret-position="181">
+              <caret line="43" column="66" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="66" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -35,10 +48,22 @@
       <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+            <state>
+              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
               <folding>
                 <element signature="e#80#91#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="predict.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/predict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="43" column="65" lean-forward="true" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+              <folding>
+                <element signature="e#81#92#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,7 +81,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Saver</find>
+      <find>seqs_len</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -65,15 +94,16 @@
         <option value="$PROJECT_DIR$/dataProcess.py" />
         <option value="$PROJECT_DIR$/ckpt/_predict.py" />
         <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/predict.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="187" />
-    <option name="y" value="130" />
-    <option name="width" value="1485" />
-    <option name="height" value="990" />
+    <option name="x" value="92" />
+    <option name="width" value="1677" />
+    <option name="height" value="1013" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -86,11 +116,6 @@
             <path>
               <item name="myDKT" type="b2602c69:ProjectViewProjectNode" />
               <item name="myDKT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myDKT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myDKT" type="462c0819:PsiDirectoryNode" />
-              <item name="ckptSkill" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -114,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python.predict">
     <configuration name="_predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="myDKT" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,6 +176,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myDKT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="myDKT" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,9 +216,11 @@
       <item itemvalue="Python.run" />
       <item itemvalue="Python._predict" />
       <item itemvalue="Python.dataProcess" />
+      <item itemvalue="Python.predict" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.predict" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python._predict" />
         <item itemvalue="Python.dataProcess" />
@@ -196,14 +241,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="150" y="104" width="1188" height="792" extended-state="0" />
+    <frame x="74" y="0" width="1341" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2890625" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2551724" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32671756" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3179792" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32671756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3284553" />
@@ -223,7 +268,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -413,23 +458,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dkt_auc" />
-    <entry file="file://$PROJECT_DIR$/DKTModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="75" column="73" selection-start-line="75" selection-start-column="73" selection-end-line="75" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
-          <folding>
-            <element signature="e#80#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ckpt/dkt_auc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -443,12 +471,39 @@
     <entry file="file://$PROJECT_DIR$/ckptSkill/dkt_auc.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/DKTModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="75" column="73" selection-start-line="75" selection-start-column="73" selection-end-line="75" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataProcess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="101" column="54" selection-start-line="101" selection-start-column="54" selection-end-line="101" selection-end-column="54" />
+        <state relative-caret-position="181">
+          <caret line="43" column="66" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="66" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#80#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="43" column="65" lean-forward="true" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+          <folding>
+            <element signature="e#81#92#0" expanded="true" />
           </folding>
         </state>
       </provider>

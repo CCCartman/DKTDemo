@@ -45,7 +45,6 @@ def run():
     f = open('D:\\mygit\\myDKT\\' + 'ckptSkill\\dkt_auc.txt','w')
     for epoch in range(10):
         model.assign_lr(sess,lr * lr_decay ** epoch)
-        #overall_loss = 0
         train_generator.shuffle()
         start = time.time()
         while not train_generator.end:
@@ -75,8 +74,7 @@ def run():
         f.write(str(epoch+1)+'\t'+str(auc_value)+'\n')
         if auc_value > max_auc_value:
             max_auc_value = auc_value
-            saver.save(sess, 'D:\\mygit\\myDKT\\' + 'ckptSkill\\dkt.ckpt',\
-                           global_step=epoch+1)
+            saver.save(sess, 'D:\\mygit\\myDKT\\' + 'ckptSkill\\dkt.ckpt',global_step=epoch+1)
         train_generator.reset()
         test_generator.reset()
     f.close()
