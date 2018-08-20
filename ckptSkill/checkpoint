@@ -1,0 +1,6 @@
+model_checkpoint_path: "D:\\workspaceQiuzhao\\myDKT\\ckptSkill\\dkt.ckpt-10"
+all_model_checkpoint_paths: "D:\\workspaceQiuzhao\\myDKT\\ckptSkill\\dkt.ckpt-5"
+all_model_checkpoint_paths: "D:\\workspaceQiuzhao\\myDKT\\ckptSkill\\dkt.ckpt-6"
+all_model_checkpoint_paths: "D:\\workspaceQiuzhao\\myDKT\\ckptSkill\\dkt.ckpt-8"
+all_model_checkpoint_paths: "D:\\workspaceQiuzhao\\myDKT\\ckptSkill\\dkt.ckpt-9"
+all_model_checkpoint_paths: "D:\\workspaceQiuzhao\\myDKT\\ckptSkill\\dkt.ckpt-10"
